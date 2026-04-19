@@ -13,7 +13,7 @@ Foquei em criar uma interface limpa, organizada e com efeitos de animação (zoo
 
 ## 🚀 Como visualizar
 Você pode acessar o projeto online através do link: 
-[COLOQUE SEU LINK AQUI, EX: GitHub Pages ou Vercel]
+[https://davidsvictor.github.io/Portfolio-Davids/]
 
 ---
 "O sucesso é a soma de pequenos esforços repetidos dia após dia."
