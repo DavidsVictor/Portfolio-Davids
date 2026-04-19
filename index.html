@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagens/d.png">
+    <title>Portifólio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header id="home"> 
+    <nav>
+        <a href="#home" class="botãoInicial">Home</a>
+        <a href="#about" class="botãoSobreInicial">About</a>
+        <a href="#stack" class="botãoProjetoInicial">Stack</a>
+        <a href="#contact" class="botãoContatoInicial">Contact</a>
+    </nav>
+    <img class="imagemFotoInicio" src="imagens/fototeste.PNG" alt="MinhaFotoInicio">
+</header>
+
+<div class="hero-container">
+    <h1 class="Hi">Hi, I am</h1>
+    <h1 class="MeuNome">Davids Victor</h1>
+    <h3 class="SubTituloMeuNome">Full Stack Developer</h3>
+
+    <div class="tech-container-social">
+        <a href="https://github.com/davidsvictor" target="_blank" class="tech-card github">
+            <span class="tech-name">GitHub</span>
+            <img src="imagens/github.png" alt="GitHub">
+        </a>
+        <a href="https://linkedin.com/in/davidsvictor" target="_blank" class="tech-card linkedin">
+            <span class="tech-name">LinkedIn</span>
+            <img src="imagens/linkedin.png" alt="LinkedIn">
+        </a>
+    </div> 
+</div> <h1 id="about" class="SobreMim">About Me</h1>
+    <div class="caixaResumo">
+        <p>Hello, my name is Davids Victor, I'm 20 years old and I'm a Full Stack Developer. Focused on creating fluid and efficient digital experiences. Currently pursuing higher education, I dedicate my days to improving my Java logic and developing modern interfaces with HTML and CSS. I have experience in the logistics sector, which has given me a practical understanding of processes and organization, skills that I now bring into my code. I am driven by technical challenges and the desire to deliver projects that truly make a difference.</p>
+    </div>
+
+    <h1 id="stack" class="MinhasFerramentas">Core Stack I Work With</h1>
+   <div class="tech-container">
+  <div class="tech-card html">
+    <img src="imagens/html-5.png" alt="HTML">
+    <span class="tech-name">Html</span>
+  </div>
+
+  <div class="tech-card css">
+    <span class="tech-name">Css</span>
+    <img src="imagens/fotocss.png" alt="CSS">
+  </div>
+
+  <div class="tech-card java">
+    <span class="tech-name">Java</span>
+    <img src="imagens/fotojava.png" alt="Java">
+  </div>
+</div>
+
+    <h1 id="contact" class="EntreEmContato">Get in Touch</h1>
+    <div class="caixaContato">
+        <form>
+        <input class="digiteSeuNome" type="text" id="nome" name="nome" placeholder="Enter your name">
+        <br>
+        <input class="suaMensagem" type="text" id="mensagem" placeholder="Your message">
+        <br>
+        <button type="button" class="EnviarViaWhatsApp" onclick="enviarWhatsApp()">Send via WhatsApp</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<script src="script.js"></script>
+</body>
+</html>

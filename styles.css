@@ -1,0 +1,418 @@
+body {
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.hero-container {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Fredoka', sans-serif;
+    width: 100%;
+    height: auto;     
+    min-height: auto;  
+    font-size: 30px;
+    padding-top: 1px;
+    padding-bottom: 0; 
+    margin: 0;
+    margin-top: 40px;
+}
+
+.imagemFotoInicio {
+    animation: flutuar 5s ease-in-out infinite;
+    display: block;
+    
+    
+    margin-top: 120px !important; 
+    
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.SobreMim {
+    margin-top: 0;     
+    padding-top: 10px;  
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.MeuNome {
+    font-size: 90px;      
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    
+    color: #33ccff; 
+    
+    text-transform: uppercase;
+    
+    letter-spacing: -2px; 
+    
+    text-shadow: 0 0 12px rgba(51, 204, 255, 0.0),
+                 0 0 25px rgba(51, 204, 255, 0.2);
+    
+    margin: 20px 0;
+    line-height: 0.9;
+}
+
+.SubTituloMeuNome {
+    margin-top: -8px;
+    font-size: 3rem;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; 
+}
+
+.github {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.github:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+}
+
+.linkedin {
+    border: 1px solid rgba(0, 119, 181, 0.4);
+    box-shadow: 0 0 15px rgba(0, 119, 181, 0.2);
+}
+
+.linkedin:hover {
+    border: 1px solid rgba(0, 119, 181, 1);
+    box-shadow: 0 0 25px rgba(0, 119, 181, 0.7);
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.botãoInicial {
+    transition: 0.4s ease;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.botãoInicial:hover{
+    transform: scale(1.2);
+}
+
+.botãoSobreInicial {
+    transition: 0.4s ease;
+    font-family:'Fredoka', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.botãoSobreInicial:hover{
+    transform: scale(1.2);
+}
+
+.botãoProjetoInicial {
+    transition: 0.4s ease;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.botãoProjetoInicial:hover{
+    transform: scale(1.2);
+}
+
+.botãoContatoInicial {
+    transition: 0.4s ease;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.botãoContatoInicial:hover{
+    transform: scale(1.2);
+}
+
+
+.caixaResumo {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    background-color: #0d0b16;
+}
+
+.tech-container-social {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;              
+    margin-top: 20px;   
+    margin-bottom: 0px; 
+    width: 100%;
+}
+
+.SobreMim {
+    font-family: 'Fredoka', sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;   
+    margin-bottom: 25px;
+    scroll-margin-top: 90px;      
+}
+.MinhasFerramentas, .EntreEmContato {
+    font-family: 'Fredoka', sans-serif;
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin-top: 80px; 
+    margin-bottom: 40px;
+    clear: both;
+    height: 50px;
+}
+
+.DigiteSeuNome {
+    display: block;
+    margin: 0 auto;
+}
+
+.SuaMensagem {
+    display: block;
+    margin: 0 auto;
+}
+
+.EnviarViaWhatsApp {
+    display: block;
+    margin: 0 auto;
+}
+
+.imagemFotoInicio {
+    animation: flutuar 5s ease-in-out infinite;
+    display: block;
+    margin: 20px auto;    
+    width: 200px;
+    border-radius: 50%;
+}
+
+.Hi {
+    margin-top: 10px !important; 
+
+}
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.caixaContato {
+    width: 90%; /* Ocupa 90% da largura da tela do celular */
+    max-width: 400px; /* Não passa de 400px no computador */
+    background: rgb(17, 16, 26);
+    padding: 30px 20px; /* Espaçamento interno */
+    border-radius: 10px;
+    margin: 20px auto 80px auto; /* Centraliza e dá espaço embaixo */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+.digiteSeuNome,
+.suaMensagem {
+    width: 100%; /* Ocupa a largura total da caixaContato */
+    box-sizing: border-box; /* ESSENCIAL: Faz o padding ficar do lado de dentro */
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    color: white; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    margin-bottom: 18px;
+    display: block; /* Garante que ocupem a linha toda sozinhos */
+}
+
+.suaMensagem:focus {
+    border-color: var(--secundaria);
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.03);
+}
+
+
+.suaMensagem {
+    margin-bottom: 1.5rem;                
+}
+
+
+.EnviarViaWhatsApp {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #1c1748, #8e54e9); 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.EnviarViaWhatsApp:hover {
+    opacity: 0.8;
+}
+
+.tech-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    justify-content: center; 
+    gap: 40px;              
+    margin-top: 10px;       
+    margin-bottom: 100px;
+}
+
+.tech-card {
+    width: 68px;
+    height: 68px;
+    background-color: #000000; 
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease; 
+}
+
+.tech-card img {
+    width: 30px;
+    height: auto;
+}
+
+.html {
+    border: 1px solid rgba(227, 79, 38, 0.4);
+    box-shadow: 0 0 15px rgba(227, 79, 38, 0.2);
+}
+
+
+.html img{
+    width: 40px;
+    height: 40px;
+}
+
+.html:hover {
+    border: 1px solid rgba(227, 79, 38, 1); 
+    box-shadow: 0 0 25px rgba(227, 79, 38, 0.7); 
+    transform: translateY(-5px); 
+}
+
+.css {
+    border: 1px solid rgba(51, 204, 255, 0.4);
+    box-shadow: 0 0 15px rgba(51, 204, 255, 0.2);
+}
+
+.css img{
+    width: 37px;
+    height: 37spx;
+}
+
+.css:hover {
+    border: 1px solid rgba(51, 204, 255, 1);
+    box-shadow: 0 0 25px rgba(51, 204, 255, 0.7);
+    transform: translateY(-5px);
+}
+
+.java {
+    border: 1px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+}
+
+.java img{
+    width: 40px;
+    height: 40px;
+}
+
+.java:hover {
+    border: 1px solid rgba(255, 0, 0, 1);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
+.tech-card {
+    position: relative; 
+}
+
+.tech-name {
+    position: absolute;
+    top: -30px;            
+    left: 50%;             
+    transform: translateX(-50%) translateY(10px); 
+    
+    font-family: 'Fredoka', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap; 
+    
+    opacity: 0;          
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.tech-card:hover .tech-name {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0); 
+}
+
+.html:hover .tech-name { text-shadow: 0 0 10px rgba(227, 79, 38, 0.8); }
+.css:hover .tech-name { text-shadow: 0 0 10px rgba(51, 204, 255, 0.8); }
+.java:hover .tech-name { text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); }
+
+
+@media screen and (max-width: 1020px) {
+    nav {
+        gap: 30px;
+    }
+
+    .MeuNome {
+        font-size: 50px;
+    }
+
+    .SubTituloMeuNome {
+        font-size: 1.8rem;
+    }
+
+    .tech-container {
+        gap: 20px; 
+    }
+}
+
+/* 1. Garante a rolagem suave ao clicar nos links do menu */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 2. Ajuste de margem para o menu não cobrir o título ao rolar */
+#about, #stack, #contact {
+    scroll-margin-top: 80px; 
+}
