@@ -96,6 +96,26 @@ nav {
     box-shadow: 0 0 25px rgba(0, 119, 181, 0.7);
 }
 
+.instagram {
+    border: 1px solid rgba(225, 48, 108, 1);
+    box-shadow: 0 0 15px rgba(225, 48, 108, 0.7);
+}
+
+.instagram:hover {
+    border: 1px solid rgba(225, 48, 108, 1); 
+    box-shadow: 0 0 25px rgba(225, 48, 108, 0.7);
+}
+
+.instagram img {
+    width: 32px;;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tech-container-social .tech-card.instagram img {
+    width: 42px;
+    height: auto;
+}
 
 nav a {
     text-decoration: none;
@@ -146,7 +166,6 @@ nav a {
 .botãoContatoInicial:hover{
     transform: scale(1.2);
 }
-
 
 .caixaResumo {
     padding: 2rem;
@@ -229,12 +248,12 @@ nav a {
 }
 
 .caixaContato {
-    width: 90%; /* Ocupa 90% da largura da tela do celular */
-    max-width: 400px; /* Não passa de 400px no computador */
+    width: 90%; 
+    max-width: 400px; 
     background: rgb(17, 16, 26);
-    padding: 30px 20px; /* Espaçamento interno */
+    padding: 30px 20px; 
     border-radius: 10px;
-    margin: 20px auto 80px auto; /* Centraliza e dá espaço embaixo */
+    margin: 20px auto 80px auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     text-align: center;
 }
@@ -242,8 +261,8 @@ nav a {
 
 .digiteSeuNome,
 .suaMensagem {
-    width: 100%; /* Ocupa a largura total da caixaContato */
-    box-sizing: border-box; /* ESSENCIAL: Faz o padding ficar do lado de dentro */
+    width: 100%; 
+    box-sizing: border-box; 
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 8px;
@@ -251,7 +270,7 @@ nav a {
     border: 1px solid rgba(255, 255, 255, 0.1);
     outline: none;
     margin-bottom: 18px;
-    display: block; /* Garante que ocupem a linha toda sozinhos */
+    display: block;
 }
 
 .suaMensagem:focus {
@@ -259,11 +278,9 @@ nav a {
     box-shadow: 0 0 10px rgba(79, 70, 229, 0.03);
 }
 
-
 .suaMensagem {
     margin-bottom: 1.5rem;                
 }
-
 
 .EnviarViaWhatsApp {
     width: 100%; 
@@ -277,7 +294,6 @@ nav a {
     cursor: pointer;
     transition: 0.3s;
 }
-
 
 .EnviarViaWhatsApp:hover {
     opacity: 0.8;
@@ -313,7 +329,6 @@ nav a {
     border: 1px solid rgba(227, 79, 38, 0.4);
     box-shadow: 0 0 15px rgba(227, 79, 38, 0.2);
 }
-
 
 .html img{
     width: 40px;
@@ -407,12 +422,10 @@ nav a {
     }
 }
 
-/* 1. Garante a rolagem suave ao clicar nos links do menu */
 html {
     scroll-behavior: smooth;
 }
 
-/* 2. Ajuste de margem para o menu não cobrir o título ao rolar */
 #about, #stack, #contact {
     scroll-margin-top: 80px; 
 }
